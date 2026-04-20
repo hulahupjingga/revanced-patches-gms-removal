@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Remove Play Services availability check",
+    "description": "Stubs GoogleApiAvailability checks so the app never complains about missing Google Play Services.",
+    "compatiblePackages": [],
+    "use": true,
+    "requiresIntegrations": true,
+    "options": []
+  },
+  {
+    "name": "Remove Play Billing dependency",
+    "description": "Stubs BillingClient so the app works without Google Play Billing.",
+    "compatiblePackages": [],
+    "use": true,
+    "requiresIntegrations": false,
+    "options": []
+  },
+  {
+    "name": "Remove Firebase Analytics dependency",
+    "description": "Stubs Firebase Analytics so no data is collected.",
+    "compatiblePackages": [],
+    "use": true,
+    "requiresIntegrations": false,
+    "options": []
+  },
+  {
+    "name": "Remove Firebase init provider",
+    "description": "Stubs FirebaseInitProvider methods via bytecode to prevent auto-initialisation without GMS.",
+    "compatiblePackages": [],
+    "use": true,
+    "requiresIntegrations": false,
+    "options": []
+  },
+  {
+    "name": "Remove all GMS dependencies",
+    "description": "Comprehensive patch that removes Google Play Services, Play Billing, and Firebase Analytics dependencies.",
+    "compatiblePackages": [],
+    "use": true,
+    "requiresIntegrations": true,
+    "options": []
+  }
+]
