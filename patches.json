@@ -2,7 +2,7 @@
   {
     "name": "Remove PairIP license check",
     "description": "Stubs PairIP LicenseClient to bypass Google Play license verification. Prevents crash on devices without Play Store.",
-    "compatiblePackages": [],
+    "compatiblePackages": null,
     "use": true,
     "requiresIntegrations": false,
     "options": []
@@ -10,7 +10,7 @@
   {
     "name": "Remove billing service binding",
     "description": "Stubs the billing service initialization that tries to bind to com.android.vending. Prevents crash without Play Store.",
-    "compatiblePackages": [],
+    "compatiblePackages": null,
     "use": true,
     "requiresIntegrations": false,
     "options": []
@@ -18,7 +18,7 @@
   {
     "name": "Remove Play Services availability check",
     "description": "Stubs GoogleApiAvailability checks so the app never complains about missing Google Play Services.",
-    "compatiblePackages": [],
+    "compatiblePackages": null,
     "use": true,
     "requiresIntegrations": false,
     "options": []
@@ -26,7 +26,7 @@
   {
     "name": "Remove Firebase Analytics dependency",
     "description": "Stubs Firebase Analytics so no data is collected.",
-    "compatiblePackages": [],
+    "compatiblePackages": null,
     "use": true,
     "requiresIntegrations": false,
     "options": []
@@ -34,7 +34,7 @@
   {
     "name": "Remove Firebase init provider",
     "description": "Stubs FirebaseInitProvider methods via bytecode to prevent auto-initialisation without GMS.",
-    "compatiblePackages": [],
+    "compatiblePackages": null,
     "use": true,
     "requiresIntegrations": false,
     "options": []
@@ -42,7 +42,7 @@
   {
     "name": "Remove all GMS dependencies",
     "description": "Comprehensive patch: removes PairIP license check, billing service binding, Play Services checks, Firebase Analytics, and Firebase init provider.",
-    "compatiblePackages": [],
+    "compatiblePackages": null,
     "use": true,
     "requiresIntegrations": false,
     "options": []
