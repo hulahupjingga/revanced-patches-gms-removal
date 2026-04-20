@@ -1,0 +1,10 @@
+.gradle/
+build/
+*.class
+*.jar
+*.rvp
+*.rve
+local.properties
+.idea/
+*.iml
+out/
